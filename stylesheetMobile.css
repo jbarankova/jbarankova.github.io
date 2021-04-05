@@ -28,9 +28,10 @@
     /* Sidebars */
     .sidebar {
         float: left;
-        max-width: 180px;
+        min-width: 120px;
         font-size: 24px;
         line-height: 32px;
+        margin-bottom: 40px;
     }
 
     .sidebar p {
@@ -38,7 +39,7 @@
     }
 
     .sidebar-left {
-        margin-right: 10%;
+        margin-right: 15%;
     }
 
     .sidebar-right {
@@ -55,6 +56,7 @@
 
     .content {
         width: 100%;
+        float: left;
     }
 
     .big-text {
