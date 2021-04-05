@@ -4,7 +4,7 @@ body {
     margin: 0px;
     background-color: #F2F5F7;
     color: #232D46;
-    font-family: "HelveticaNeueLTPro-Roman";
+    font-family: "HelveticaNeueLTPro-Roman", sans-serif;
 }
 
 body a {
