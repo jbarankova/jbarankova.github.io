@@ -1,90 +1,95 @@
 /* Body */
-body {
-    padding: 20px;
-    margin: 0px;
-    background-color: #F2F2F2;
-    color: #232D46;
-    font-family: "HelveticaNeueLTPro-Roman", sans-serif;
-}
+    body {
+        padding: 20px;
+        margin: 0;
+        background-color: #FFFFFF;
+        color: #313746;
+        font-family: "HelveticaNeueLTPro-Roman", sans-serif;
+    }
 
-body a {
+a, a:focus, a:active {
     text-decoration: none;
+    color: inherit;
 }
 
-p {
-    margin: 0;
+a:hover {
+    color: #7C8DA8;
 }
 
-body a:visited {
-    color: #232D46;
-}
 
-.top-menu {
-    font-size: 24px;
-    margin-top: 0px;
-    margin-bottom: 80px;
-}
-
-/* Sidebars */
-
-.sidebar {
-    float: right;
-    max-width: 180px;
-    font-size: 24px;
-    line-height: 32px;
-}
-
-.sidebar p {
-    margin-bottom: 8px;
-}
-
-.sidebar-left {
-    margin-right: 10%;
-}
-
-.sidebar-right {
-    margin-right: 10%;
-}
-
-.sidebar a {
-    text-decoration: none;
-}
-
-.sidebar .small-header {
-    margin-bottom: 20px;
-}
-
-.content {
-    width: 52%;
-}
 
 .big-text {
     font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
     line-height: 40px;
-    margin-bottom: 24px;
+    text-align: left;
 }
 
-.small-header {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 28px;
-    color: #A1AAB9;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-
-.soon {
+.article-text {
     font-size: 28px;
-    color: #A1AAB9;
-    font-style: italic;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+}
+
+/* Nav */
+.top-menu {
+    height: 74px;
+    margin-bottom: 80px;
+}
+
+.social-links {
+    font-family: "HelveticaNeueLTPro-Roman", sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.top-menu .right-item {
+    float: right;
+    margin-left: 40px;
+}
+
+/* Content */
+
+hr.solid {
+    border-top: 1px solid #75758C;
+    margin-bottom: 90px;
+}
+
+.main-page-content {
+    width: 1000px;
+    margin-bottom: 90px;
+}
+
+
+/* UL */
+
+figure {
+    margin: 0;
+    float: left;
+    margin-right: 120px;
+    margin-bottom: 60px;
+}
+
+figcaption {
+    margin-bottom: 12px;
+    color: #75758C;
 }
 
 ul {
-    list-style: none;
     margin: 0;
-    padding: 0;
+    padding-left: 0;
 }
 
-li a {
-    text-decoration: none;
+li {
+    list-style: none;
+    margin-bottom: 4px;
+}
+
+.soon {
+    color: #75758C;
+    font-style: italic;
+    font-size: 24px;
 }
