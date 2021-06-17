@@ -19,6 +19,7 @@ a:hover {
 
 
 .big-text {
+    font-family: "HelveticaNeueLTPro-Roman", sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -27,6 +28,7 @@ a:hover {
 }
 
 .article-text {
+    font-family: "HelveticaNeueLTPro-Roman", sans-serif;
     font-size: 28px;
     font-style: normal;
     font-weight: 400;
