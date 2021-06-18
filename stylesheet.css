@@ -16,7 +16,9 @@ a:hover {
     color: #7C8DA8;
 }
 
-
+p {
+margin-bottom: 10px;
+}
 
 .big-text {
     font-family: "HelveticaNeueLTPro-Roman", sans-serif;
