@@ -60,7 +60,7 @@ nav {
 .menu .right-item {
     float: unset;
     margin-left: unset;
-    margin-right: 100px;
+    margin-right: 300px;
 }
 
 /* Main page */
@@ -195,7 +195,7 @@ footer {
 footer .right-item {
     float: unset;
     margin-left: 0;
-    margin-right: 100px;
+    margin-right: 300px;
 }
 
 .mobile-hidden {
