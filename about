@@ -58,7 +58,7 @@
                 <figcaption class="works-list">User research</figcaption>
                 <hr class="solid">
                 <ul class="works-list">
-                    <li><a href="nps.html"> Net Promoter score →</a></li>
+                    <li><a href="nps"> Net Promoter score →</a></li>
                     <hr class="solid">
                     <li>Usability testing process <span class="soon">(soon)</span></li>
                 </ul>
