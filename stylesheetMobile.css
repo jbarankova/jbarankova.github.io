@@ -47,8 +47,6 @@ a:hover {
 nav {
     width: auto;
     height: auto;
-    white-space: pre-wrap;
-    margin-bottom: 80px;
 }
 
 .social-links {
@@ -60,8 +58,9 @@ nav {
 }
 
 .menu .right-item {
-    float: left;
+    float: unset;
     margin-left: unset;
+    margin-right: 100px;
 }
 
 /* Main page */
@@ -183,7 +182,8 @@ img {
 
 footer {
     margin-top: 180px;
-    height: 84px;
+    height: auto;
+    margin-bottom: 40px;
 }
 
 .social-links {
@@ -195,7 +195,7 @@ footer {
 footer .right-item {
     float: unset;
     margin-left: 0;
-    margin-right: 20px;
+    margin-right: 100px;
 }
 
 .mobile-hidden {
