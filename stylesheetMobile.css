@@ -177,7 +177,7 @@ img {
 /* Footer */
 
 footer {
-    margin-top: 180px;
+    margin-top: 200px;
     height: auto;
     margin-bottom: 40px;
 }
@@ -197,4 +197,8 @@ footer .right-item {
 .mobile-hidden {
     visibility: hidden;
     display: none;
+}
+
+.mobile-visible {
+    visibility: visible;
 }

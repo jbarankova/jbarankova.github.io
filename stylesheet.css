@@ -164,9 +164,9 @@ h1 {
     margin-bottom: 100px;
 }
 
-.desktop-hidden {
+.mobile-visible {
     visibility: hidden;
-    display: none;
+
 }
 
 /* Footer */
