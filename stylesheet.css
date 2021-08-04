@@ -1,12 +1,59 @@
-/* Body */
-    body {
-        margin: 0;
-        background-color: #FFFFFF;
-        color: #0D0D0D;
-        font-family: "HelveticaNeueLTPro-Roman", sans-serif;
-        padding: 24px;
-        letter-spacing: -0.4px;
-    }
+
+html {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    color: #040431;
+    font-family: 'Arial','Helvetica', sans-serif;
+    margin: 20px 20px;
+    letter-spacing: -0.4px;
+}
+
+
+/* index-sidenav */
+.index-sidenav {
+    float: left;
+    width: 400px;
+    height: 100%;
+}
+
+.index-addition {
+    font-family: 'Times Newer Roman', Times, serif;
+    font-style: italic !important;
+}
+
+.index-h2 {
+    font-family: 'Arial','Helvetica', sans-serif;
+    font-size: 28px;
+    position: fixed;
+    font-style: normal;
+    font-weight:normal;
+    top: 0;
+    height: auto;
+    line-height: auto;
+}
+
+.index-h3 {
+    font-family: 'Arial','Helvetica', sans-serif;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight:normal;
+    position: fixed;
+    bottom: 20px;
+    margin-bottom: 0;
+}
+
+/* index-Body */
+.index-body {
+    background-color: #F2F5F7;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-gap: 80px;
+    height: auto;
+}
 
 a, a:focus, a:active {
     text-decoration: none;
@@ -14,77 +61,81 @@ a, a:focus, a:active {
 }
 
 a:hover {
-    color: #7C8DA8;
+    opacity: 0.6;
+    transition: 0.2s;
 }
 
 
-.big-text {
-    font-size: 40px;
+/* index-content */
+
+.index-content {
+    width: 100%;
+    max-width: 1156px;
+    margin-left: 20px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.index-h1 {
+    font-size: 36px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 46px;
+    font-weight:normal;
+    line-height: auto;
     text-align: left;
-    letter-spacing: -0.4px;
+    flex-wrap: wrap;
+    display: flex;
+    width: 90%;
 }
 
-.works-list {
+
+/* index-works */
+
+hr.solid {
+    border-top: 1px solid #75758C;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.index-works-wrapper {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 100px;
+}
+
+.index-works-list {
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: 34px;
     text-align: left;
-    letter-spacing: -0.4px;
 }
 
-.not-clickable {
-    pointer-events:none;
+.index-works-left {
+    flex: 400px;
 }
 
-/* Nav */
-nav {
-    height: 74px;
+.index-works-right {
+    flex: 400px;
     margin-bottom: 100px;
 }
 
-.social-links {
-    font-family: "HelveticaNeueLTPro-Roman", sans-serif;
-    font-size: 26px;
-    line-height: 34px;
-}
-
-.menu .right-item {
-    float: right;
-    margin-left: 40px;
-}
-
-/* Main page */
-
-hr.solid {
-    border-top: 1px solid #75758C;
-    margin-top: 12px;
-    margin-bottom: 8px;
-}
-
-.main-page-content {
-    max-width: 1156px;
-    margin-bottom: 80px;
-}
-
-
-/* UL */
-
 figure {
     margin: 0;
-    float: left;
-    width: 520px;
-    margin-right: 120px;
-    margin-bottom: 60px;
 }
+
 
 figcaption {
-    color: #75758C;
+    font-family: 'Times Newer Roman', Times, serif;
+    font-style: italic !important;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
 }
-
 
 ul {
     margin: 0;
@@ -96,31 +147,58 @@ li {
 }
 
 .soon {
-    color: #75758C;
+    color: #040431;
+    opacity: 0.6;
     font-size: 24px;
 }
 
 /* Works pages */
 
-h1 {
+.work-page-body{
+    height: auto;
+    background-color: #FFFFFF;
+}
+
+nav {
+    height: 74px;
+    margin-bottom: 100px;
+}
+
+.social-links {
+    font-family: 'Arial','Helvetica', sans-serif;
+    font-size: 26px;
+    line-height: 34px;
+}
+
+.menu .right-item {
+    float: right;
+    margin-left: 40px;
+}
+
+.work-page-content {
+    margin-bottom: 80px;
+}
+
+.article-h1 {
     font-size: 38px;
     font-style: normal;
     font-weight: 400;
     line-height: 42px;
-    letter-spacing: 0;
     text-align: left;
 }
 
 .article-text {
-    font-size: 28px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 400;
-    line-height: 34px;
+    line-height: auto;
     text-align: left;
 }
 
 .date {
-    color: #75758C;
+    font-size: 28px;
+    color: #040431;
+    opacity: 0.6;
 }
 
 .intro {
@@ -144,9 +222,10 @@ h1 {
     font-size: 28px;
     font-style: normal;
     font-weight: 400;
-    line-height: 34px;
+    line-height: auto;
     text-align: left;
-    color: #75758C;
+    color: #040431;
+    opacity: 0.6;
 }
 
 .image-block {
@@ -166,7 +245,10 @@ h1 {
 
 .mobile-visible {
     visibility: hidden;
+}
 
+.hidden {
+    visibility: hidden;
 }
 
 /* Footer */
@@ -180,4 +262,9 @@ footer {
 footer .right-item {
     float: right;
     margin-left: 40px;
+}
+
+.desktop-hidden {
+    visibility: hidden;
+    display: none;
 }
