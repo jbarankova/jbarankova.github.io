@@ -19,8 +19,9 @@ body {
 .index-sidenav {
     float: unset;
     width: 100%;
-    margin: 20px;
+    padding: 20px;
     margin-bottom: 40px;
+    box-sizing: border-box;
     height: auto;
 }
 
@@ -36,6 +37,7 @@ body {
     font-weight:normal;
     position: relative;
     padding-bottom: 32px;
+    margin: 0;
 }
 
 .index-h3 {
@@ -79,7 +81,6 @@ a:hover {
     font-size: 32px;
     font-style: normal;
     font-weight:normal;
-    line-height: auto;
     text-align: left;
     box-sizing: border-box;
     width: 100%;
@@ -161,21 +162,11 @@ li {
     box-sizing: border-box;
 }
 
-nav {
-    height: 74px;
-    margin-bottom: 100px;
-    box-sizing: border-box;
-}
 
 .social-links {
     font-family: 'Arial','Helvetica', sans-serif;
     font-size: 26px;
     line-height: 34px;
-}
-
-.menu .right-item {
-    float: right;
-    margin-left: 40px;
 }
 
 .work-page-content {
@@ -197,7 +188,6 @@ nav {
     font-size: 28px;
     font-style: normal;
     font-weight: 400;
-    line-height: auto;
     text-align: left;
     width: 100%;
     margin-top:10px;
@@ -215,9 +205,9 @@ nav {
 
 .aside-header {
     float: left;
-    margin-right: 10%;
+    margin-right: 140px;
     width: 100%;
-    flex-wrap: wrap;
+
 }
 
 .center-text {
@@ -230,7 +220,6 @@ nav {
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: auto;
     text-align: left;
     color: #040431;
     opacity: 0.6;
@@ -274,16 +263,16 @@ img {
 footer {
     margin-top: 80px;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     box-sizing: border-box;
     width: 100%;
     padding: 20px;
 }
 
 footer .right-item {
-    float: unset;
+    float: left;
     margin-left: 0;
-    margin-right: 300px;
+    margin-right: 100px;
 }
 
 .mobile-hidden {
