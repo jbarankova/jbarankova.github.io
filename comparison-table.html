@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(81057640, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/81057640" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+    <meta charset="UTF-8">
+    <title>Net promoter score</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="stylesheet.css" media="screen">
+  <link rel= "stylesheet" href= "stylesheetMobile.css" media= "only screen and (max-device-width:768px)">
+  <link rel="stylesheet" type="text/css" href="MyFontsWebfontsKit.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/ico" sizes="32x32" href="icons/favicon.ico">
+  <link rel="icon" type="image/ico" sizes="16x16" href="icons/favicon.ico">
+  <link rel="shortcut icon" href="icons/favicon.ico">
+</head>
+<body class="work-page-body">
+<nav class="work-page-nav menu mobile-hidden">
+    <a href="index.html" class="left-item social-links  mobile-hidden">←</a>
+</nav>
+<main class="work-page-content">
+    <div class="intro">
+        <div class="aside-header">
+            <h1 class="article-h1">Comparison table</h1>
+            <p class=" article-text date">Jul-Aug 2020</p>
+        </div>
+        <div class="center-text">
+            <p class="article-text">The cost of insurance and its coverage is the first thing the agent should agree with the client.
+                There can be more than five offers and clients only need to choose one. To make it convenient to compare insurances, we made a page with a table,
+                which contains all the information necessary for a solution.
+                <br>
+            </p>
+            <ul class="center-text-details">
+                <li class="article-text">– UI design</li>
+                <li class="article-text">– Prototyping</li>
+            </ul>
+        </div>
+    </div>
+
+    <hr class="solid">
+
+    <div class="text-block">
+        <div class="aside-header">
+            <h2 class="h2-article">Problem</h2>
+        </div>
+        <div class="center-text">
+            <p class="article-text">The agents fill out the documents and receive offers on the price of insurance inside the product. Then they need to present it to an insured.
+                To do it they have to manually create a comparison table in Excel. This is extra work that the product can do.
+            </p>
+        </div>
+    </div>
+
+    <div class="text-block">
+        <div class="aside-header">
+            <h2 class="h2-article">Research</h2>
+        </div>
+        <div class="center-text">
+            <p class="article-text">First, we needed to found out what data the insured needs to make a decision. Our Sales team helped us with taking more details from agents.
+                We found out that except for the actual cost and document of the policy, agents needed to describe details such as limits, deductibles, and coverages.
+            </p>
+        </div>
+    </div>
+
+    <div class="image-block">
+        <img src="media/table-example.png" alt="table-example">
+    </div>
+
+    <div class="text-block">
+        <div class="aside-header">
+            <h2 class="h2-article hidden"></h2>
+        </div>
+        <div class="center-text">
+            <p class="article-text">The next step was to compare a dataset for different companies in one insurance line. The data between the two offers can be very
+                different due to the companies settings. We decided that we need a flexible table that would easily adapt to the data.
+            </p>
+        </div>
+    </div>
+
+    <div class="image-block">
+        <img src="media/example-dataset.png" alt="example-dataset">
+    </div>
+
+    <div class="text-block">
+        <div class="aside-header mobile-hidden">
+            <h2 class="h2-article">Design</h2>
+        </div>
+        <div class="center-text">
+            <p class="article-text">We defined a data hierarchy. The most important and unique data is a carrier, document, and cost of the policy. It will be placed on the very top.
+            </p>
+        </div>
+    </div>
+
+    <div class="image-block">
+        <img src="media/comparison-table-1.png" alt="comparison-table-example-1">
+    </div>
+
+    <div class="text-block">
+        <div class="aside-header">
+            <h2 class="h2-article hidden"></h2>
+        </div>
+        <div class="center-text">
+            <p class="article-text">The details of the policy are posted below the main info. There can be more than 5 offers and to make it easier to compare
+                the data while horizontal scrolling, the sections’ headers were fixed on the left side. The header with the main info also will be fixed on the top while scrolling.
+            </p>
+        </div>
+    </div>
+
+    <div class="image-block">
+        <img src="media/comparison-table-2.png" alt="comparison-table-example-2">
+    </div>
+
+    <div class="image-block">
+        <img src="media/comparison-table-3.png" alt="comparison-table-example-3">
+    </div>
+
+    <div class="text-block">
+        <div class="aside-header">
+            <h2 class="h2-article">Outcomes</h2>
+        </div>
+        <div class="center-text">
+            <p class="article-text">We didn't have any metrics to estimate our expectations from this feature so we decided to ask users how they assessed it.
+                We received positive reviews, but also we found out that most users didn't know how to get to this page.
+                So for the next iteration, we decided to rethink sharing process. And after that, we will be able to measure metrics to assess changes.
+            </p>
+        </div>
+    </div>
+</main>
+<footer>
+    <hr class="solid">
+    <div class="footer-links">
+        <a href="mailto:hi@juliabarankova.com" class="left-item social-links">hi@juliabarankova.com</a>
+        <a href="https://www.instagram.com/polar_type/" class="right-item social-links" target="_blank">Instagram</a>
+        <a href="https://t.me/jbarankova" class="right-item social-links" target="_blank">Telegram</a>
+    </div>
+</footer>
+</body>
+</html>
