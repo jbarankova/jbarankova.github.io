@@ -266,6 +266,9 @@ footer {
     height: 100px;
 }
 
+.footer-links {
+    margin-top: 16px;
+}
 
 footer .right-item {
     float: right;
