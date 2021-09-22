@@ -46,12 +46,17 @@ body {
     margin-bottom: 0;
 }
 
+.arrow {
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
+}
+
 /* index-Body */
 .index-body {
     background-color: #F2F5F7;
     display: grid;
     grid-template-columns: 400px 1fr;
-    grid-gap: 60px;
+    grid-gap: 80px;
     height: auto;
 }
 
@@ -167,7 +172,6 @@ nav {
 .social-links {
     font-family: 'Arial','Helvetica', sans-serif;
     font-size: 26px;
-    line-height: 34px;
 }
 
 .menu .right-item {
@@ -185,6 +189,7 @@ nav {
     font-weight: 400;
     line-height: 42px;
     text-align: left;
+    margin-top: 0;
 }
 
 .article-text {
@@ -193,12 +198,14 @@ nav {
     font-weight: 400;
     line-height: auto;
     text-align: left;
+    margin-top: 0;
 }
 
 .date {
     font-size: 28px;
     color: #040431;
-    opacity: 0.6;
+    opacity: 0.7;
+    margin-bottom: 40px;
 }
 
 .intro {
@@ -207,7 +214,7 @@ nav {
 
 .aside-header {
     float: left;
-    width: 400px;
+    width: 360px;
     margin-right: 10%;
     align-content: baseline;
 }
@@ -219,13 +226,13 @@ nav {
 }
 
 .h2-article {
-font-family: 'Times Newer Roman', Times, serif;
+    font-family: 'Times Newer Roman', Times, serif;
     font-style: italic !important;
     font-size: 36px;
     font-weight: 400;
     line-height: auto;
     text-align: left;
-    opacity: 0.6;
+    opacity: 0.7;
     margin-top: 0;
 }
 
@@ -240,7 +247,7 @@ font-family: 'Times Newer Roman', Times, serif;
 
 
 .text-block {
-    margin-top: 120px;
+    margin-top: 128px;
     margin-bottom: 100px;
 }
 
@@ -256,7 +263,7 @@ font-family: 'Times Newer Roman', Times, serif;
 
 footer {
     margin-top: 180px;
-    height: 84px;
+    height: 100px;
 }
 
 
