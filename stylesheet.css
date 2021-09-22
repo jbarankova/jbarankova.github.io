@@ -219,13 +219,14 @@ nav {
 }
 
 .h2-article {
-    font-size: 28px;
-    font-style: normal;
+font-family: 'Times Newer Roman', Times, serif;
+    font-style: italic !important;
+    font-size: 36px;
     font-weight: 400;
     line-height: auto;
     text-align: left;
-    color: #040431;
     opacity: 0.6;
+    margin-top: 0;
 }
 
 .image-block {
