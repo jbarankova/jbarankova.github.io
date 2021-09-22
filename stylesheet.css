@@ -56,7 +56,7 @@ body {
     background-color: #F2F5F7;
     display: grid;
     grid-template-columns: 400px 1fr;
-    grid-gap: 80px;
+    grid-gap: 60px;
     height: auto;
 }
 
