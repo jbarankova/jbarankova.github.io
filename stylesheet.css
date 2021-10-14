@@ -102,7 +102,7 @@ hr.solid {
 }
 
 .index-works-wrapper {
-    margin-top: 80px;
+    margin-top: 68px;
     display: flex;
     justify-content: space-between;
     width: 90%;
@@ -145,6 +145,10 @@ figcaption {
 ul {
     margin: 0;
     padding-left: 0;
+}
+
+.list {
+    margin-bottom: 28px;
 }
 
 li {
@@ -193,7 +197,7 @@ nav {
 }
 
 .article-text {
-    font-size: 32px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 400;
     line-height: auto;
@@ -221,14 +225,14 @@ nav {
 
 .center-text {
     display: flex;
-    width: 804px;
+    width: 800px;
     flex-wrap: wrap;
 }
 
 .h2-article {
     font-family: 'Times Newer Roman', Times, serif;
     font-style: italic !important;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 400;
     line-height: auto;
     text-align: left;
@@ -251,12 +255,26 @@ nav {
     margin-bottom: 100px;
 }
 
+blockquote {
+    margin: 0 0 20px 0;
+    padding: 8px 20px;
+    border-left: 5px solid #D1D0E2;
+    font-family: 'Times Newer Roman', Times, serif;
+    font-style: italic !important;
+    font-size: 28px;
+    font-weight:normal;
+}
+
 .mobile-visible {
     visibility: hidden;
 }
 
 .hidden {
     visibility: hidden;
+}
+
+ol {
+    padding: 0 0 0 0;
 }
 
 /* Footer */
