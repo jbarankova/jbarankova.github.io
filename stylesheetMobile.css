@@ -10,12 +10,17 @@ body {
     margin: 0;
     letter-spacing: -0.4px;
     width: 100%;
+    height: 100%;
     box-sizing: border-box;
     padding: 20px;
 }
 
 nav {
     padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+.nav-links {
     margin-bottom: 40px;
 }
 
@@ -33,22 +38,26 @@ nav {
     font-style: italic !important;
 }
 
-.index-h2 {
+.header-name {
     font-family: 'Arial','Helvetica', sans-serif;
-    font-size: 28px;
+    font-size: 24px;
     font-style: normal;
     font-weight:normal;
     position: relative;
-    padding-bottom: 32px;
+    padding-bottom: 80px;
     margin: 0;
 }
 
-.index-h3 {
+.side-nav {
     font-family: 'Arial','Helvetica', sans-serif;
-    font-size: 28px;
-    line-height: 40px;
-    font-weight:normal;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: normal;
     position: relative;
+}
+
+.about-link {
+    margin-bottom: 20px;
 }
 
 /* index-Body */
@@ -80,8 +89,8 @@ a:hover {
     box-sizing: border-box;
 }
 
-.index-h1 {
-    font-size: 32px;
+.main-text {
+    font-size: 28px;
     font-style: normal;
     font-weight:normal;
     text-align: left;
@@ -99,20 +108,20 @@ hr.solid {
 }
 
 .index-works-wrapper {
-    margin-top: 80px;
+    margin-top: 60px;
     display: flex;
     justify-content: space-between;
     width: 100%;
     flex-wrap: wrap;
     padding: 0;
-    gap: 100px;
+    gap: 60px;
 }
 
 .index-works-list {
-    font-size: 28px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 34px;
+    line-height: 28px;
     text-align: left;
 }
 
@@ -133,9 +142,9 @@ figure {
 figcaption {
     font-family: 'Times Newer Roman', Times, serif;
     font-style: italic !important;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 400;
-    line-height: 34px;
+    line-height: 28px;
     text-align: left;
     box-sizing: border-box;
 }
@@ -157,7 +166,7 @@ li {
 
 /* Works pages */
 
-.work-page-body{
+.case-body{
     background-color: #FFFFFF;
     display: unset;
     width: 100%;
@@ -172,7 +181,7 @@ li {
     line-height: 34px;
 }
 
-.work-page-content {
+main {
     margin-bottom: 80px;
     width: 100%;
     box-sizing: border-box;
@@ -188,12 +197,13 @@ li {
 }
 
 .article-text {
-    font-size: 28px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     text-align: left;
     width: 100%;
     margin-top:10px;
+    min-width: unset;
 }
 
 .date {
@@ -203,7 +213,8 @@ li {
 }
 
 .intro {
-    margin-bottom: 120px;
+    margin-bottom: 80px;
+    margin-top: 100px;
 }
 
 .aside-header {
@@ -225,7 +236,6 @@ li {
     font-weight: 400;
     text-align: left;
     color: #040431;
-    opacity: 0.7;
 }
 
 .image-block {
@@ -239,11 +249,11 @@ li {
 }
 
 img {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
 }
 
-.text-block {
+.content-block {
     margin-top: 80px;
     margin-bottom: 80px;
 }
@@ -285,4 +295,9 @@ footer .right-item {
 
 .mobile-visible {
     visibility: visible;
+}
+
+/* Explanation-boxes */
+.explanation-boxes {
+    display: unset;
 }
