@@ -308,6 +308,7 @@ img {
     height: auto;
     margin-bottom: 20px;
     margin-top: 20px;
+    margin-right: 20px;
 }
 
 
@@ -377,6 +378,17 @@ ol {
     text-align: left;
     margin-top: 0;
     width: auto;
+}
+
+.h4-article {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: auto;
+    text-align: left;
+    margin-top: 40px;
+    width: auto;
+    margin-bottom: 0;
 }
 
 /* Footer */
