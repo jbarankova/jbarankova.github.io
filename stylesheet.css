@@ -105,6 +105,7 @@ hr.solid {
 
 .index-works-wrapper {
     margin-top: 60px;
+    margin-bottom: 60px;
     display: flex;
     justify-content: space-between;
     width: 85%;
