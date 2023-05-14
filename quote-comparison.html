@@ -28,24 +28,28 @@
     <link rel="shortcut icon" href="icons/favicon.ico">
     <title>Quote comparison</title>
 </head>
-<body class="case-body">
-       <div class="index-sidenav">
-           <h2 class="header-name mobile-hidden">JULIA BARANKOVA</h2>
-           <div class="side-nav mobile-hidden">
-               <a href="https://drive.google.com/file/d/1gR3F9LEehNYXMBlAF_gtRtPsGFIMI8CY/view?usp=sharing" class="right-item" target="_blank">CV<span class="arrow">↓</span></a>
-               <br>
-               <a href="https://www.linkedin.com/in/julia-barankova" class="right-item" target="_blank">linkedin</a>
-               <br>
-               <a href="https://www.instagram.com/polar_type/" class="right-item" target="_blank">instagram</a>
-               <br>
-               <a href="https://t.me/polartype" class="right-item" target="_blank">telegram</a>
-               <br>
-               <a href="mailto:hi@juliabarankova.com" class="right-item">hi@juliabarankova.com</a>
-           </div>
-       </div>
-       <main class="case-content">
-           <div class="nav-links"><a href="index.html"><span class="arrow">← </span><span class="nav-links-italic">back to works</span></a></div>
-           <div class="intro">
+<body>
+<div class="index-sidenav">
+    <div class="top-nav-links mobile-hidden">
+        <span class="nav-links-active"><a href="index.html">works</a></span> /
+        <span class="nav-links"><a href="about.html">about</a></span></div>
+    <div class="side-nav">
+        <a href="about.html" class="right-item desktop-hidden about-link">about</a>
+        <br>
+        <a href="https://drive.google.com/file/d/1gR3F9LEehNYXMBlAF_gtRtPsGFIMI8CY/view?usp=sharing" class="right-item" target="_blank">CV<span class="arrow">↓</span></a>
+        <br>
+        <a href="https://www.linkedin.com/in/julia-barankova" class="right-item" target="_blank">linkedin</a>
+        <br>
+        <a href="https://www.instagram.com/polar_type/" class="right-item" target="_blank">instagram</a>
+        <br>
+        <a href="https://t.me/polartype" class="right-item" target="_blank">telegram</a>
+        <br>
+        <a href="mailto:hi@juliabarankova.com" class="right-item">hi@juliabarankova.com</a>
+    </div>
+</div>
+       <main>
+           <a href="index.html" class="nav-links-active"><span class="arrow">←</span> back to works</a>
+           <div>
            <h1 class="article-h1">Quote comparison</h1>
            <p class=" article-text date">Jul-Aug 2020</p>
            <p class="article-text">The cost of insurance and its coverage is the first thing the agent should agree with the client.
@@ -56,18 +60,22 @@
            <hr class="case-hr">
 
            <div class="content-block">
-                   <h2 class="h2-article">➀ Context</h2>
+               <div class="content-block-header">
+                   <h2 class="h2-article">Context</h2>
                    <p class="article-text">Agents submit to several markets and receive offers on the price of insurance inside the product.
                        Then they need to present it to an insured. Insured will decide which quote is better.
                    </p>
-                   <img src="media/qc-flow-schema.svg" alt="flow-example">
+               </div>
+                   <img src="media/qc_flow_schema.webp" alt="flow-example">
            </div>
 
            <div class="content-block">
-               <h2 class="h2-article">➁ Problem</h2>
-               <p class="article-text">Agents have to manually transfer data about quotes from the product to Excel. This is an extra work that the product can do.
-               </p>
-               <img src="media/qc-flow-schema-pp.svg" alt="flow with problem point">
+               <div class="content-block-header">
+                   <h2 class="h2-article">Problem</h2>
+                   <p class="article-text">Agents had to manually transfer data about quotes from the product to Excel. This is an extra work that the product could do.
+                   </p>
+               </div>
+               <img src="media/qc_flow_schema_pp.webp" alt="flow with problem point">
                <div class="explanation-boxes">
                    <div class="left-box">
                        <p class="h3-article">User problem</p>
@@ -81,35 +89,45 @@
            </div>
 
            <div class="content-block">
-               <h2 class="h2-article">➂ Research</h2>
+               <div class="content-block-header">
+               <h2 class="h2-article">Research</h2>
                <div class="content-item">
                    <p class="article-text">First, we talked with agents and understand what kind of data they need to present.</p>
                    <p class="article-text">Except for the actual cost and document of the policy, agents needed to describe details such as limits, deductibles, and coverages.</p>
-                   <img src="media/user-quote.svg" alt="user quote">
-                   <p class="article-text">The data between the offers even in the one insurance line can be very different due to the companies settings.
-                       We needed сollect all datasets in one place.</p>
-                   <img src="media/comparison-table-example.png" alt="comparison table example">
-
                </div>
-
-           <div class="content-block">
-               <h2 class="h2-article">➃ Solution</h2>
-               <p class="article-text">We have a special portal for insureds where all quotes and policies are stored.
-                   We built a table into the portal so the insured would have all the data in one place and agents just needed to share this page with insured.</p>
-               <img src="media/comparison-table-1.png" alt="comparison table solution">
-               <img src="media/comparison-table-2.png" alt="comparison table solution">
-               <img src="media/comparison-table-3.png" alt="comparison table solution">
+                   <img src="media/user_quote.webp" alt="user quote">
+                   <p class="article-text">The data between the offers even in the one insurance line can be very different due to the companies settings.
+                       We needed to сollect all datasets in one place.</p>
+                   <img src="media/comparison_table_example.webp" alt="comparison table example">
+               </div>
            </div>
 
            <div class="content-block">
-               <h2 class="h2-article">➄ Outcomes</h2>
+               <div class="content-block-header">
+               <h2 class="h2-article">Solution</h2>
+               <p class="article-text">We have a special portal for insureds where all quotes and policies are stored.
+                   We built a table into the portal so the insured would have all the data in one place and agents just needed to share this page with insured.</p>
+               </div>
+               <div class="content-block-header">
+                   <p class="article-text">Now besides the main info insured will see detailed coverages on each quote and will be able to compare this info.</p>
+                   <img src="media/comparison_table_1.webp" alt="comparison table solution"></div>
+               <div class="content-block-header">
+                   <p class="article-text">Main info is fixed on the top while vertical scrolling.</p>
+                   <img src="media/comparison_table_2.webp" alt="comparison table solution">
+               </div>
+               <div class="content-block-header">
+                   <p class="article-text">Section headers are fixed on the left side while horizontal scrolling.</p>
+                   <img src="media/comparison_table_3.webp" alt="comparison table solution">
+               </div>
+           </div>
+           <div class="content-block-header">
+               <h2 class="h2-article">Outcomes</h2>
                <p class="article-text">This page was an important step in the growth of the Insured portal which is one of the main parts of business focus.
-                   According to the qualitative data, we see that agents and insured are interested in this page.
+                   According to the qualitative data, we saw that agents and insured are interested in this page.
                    But also we knew that there are some problems with inviting clients to the Insured portal. So for the next iteration,
                    we decided to rethink sharing process.</p>
            </div>
-
-           <div class="nav-links footer-links"><a href="index.html"><span class="arrow">← </span><span class="nav-links-italic">back to works</span></a></div>
+           <div class="nav-links-active footer-links"><a href="index.html"><span class="arrow">← </span> back to works</a></div>
        </main>
 </body>
 
